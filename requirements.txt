@@ -1,0 +1,15 @@
+# ==============================================================================
+# File: requirements.txt
+# Project: AxisOS Nebula Engine (Crusan & Co.)
+# Author: Marc F. Crusan / Crusan & Co. w/ AGY
+# Date: 2026-10-20
+# Description: Python runtime dependencies for AxisOS Nebula Engine.
+# Changelog:
+#   - 2026-10-20 (MFC/AGY): Initial dependency specification.
+# ==============================================================================
+fastapi>=0.100.0
+uvicorn>=0.23.0
+pydantic>=2.0.0
+httpx>=0.24.0
+PyYAML>=6.0.0
+pytest>=7.4.0

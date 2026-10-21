@@ -1,0 +1,58 @@
+# ==============================================================================
+# File: infra/nvidia_nemotron_models.yaml
+# Project: AxisOS Nebula Engine (Crusan & Co.)
+# Author: Marc F. Crusan / Crusan & Co. w/ AGY
+# Date: 2026-10-20
+# Description: Tiered model routing policy pairing the AxisOS Sovereign Triad
+#              with NVIDIA Nemotron open-source models on Nebius Token Factory.
+# Changelog:
+#   - 2026-10-20 (MFC/AGY): Created Nemotron 3-tier routing policy.
+# ==============================================================================
+
+vendor: "Crusan & Co."
+project: "AxisOS Nebula Engine"
+version: "1.0.0"
+pillars:
+  - HONEST
+  - AUDITABLE
+  - OWNED
+
+nebius_token_factory:
+  endpoint: "https://api.studio.nebius.com/v1/chat/completions"
+  serverless_jobs_enabled: true
+
+routing_tiers:
+  tier_0_reflex:
+    engine: "AxisOS Zero-Core (:8081)"
+    runtime: "Freestanding C99 in RAMGAK DDR4 RAMDisk"
+    target_latency_us: 112
+    triggers:
+      - "status"
+      - "telemetry"
+      - "worm"
+      - "heartbeat"
+      - "checkpoint"
+
+  tier_1_tactical:
+    engine: "Nebius Token Factory — NVIDIA Nemotron Nano / Super"
+    models:
+      nano: "nvidia/Llama-3_1-Nemotron-Nano-8B-v1"
+      super: "nvidia/Llama-3_3-Nemotron-Super-49B-v1"
+    bound_agent: "agent-lite (:8080)"
+    max_tokens: 512
+    temperature: 0.1
+
+  tier_2_deep_reasoning:
+    engine: "Nebius Token Factory — NVIDIA Nemotron Ultra"
+    model: "nvidia/Llama-3_1-Nemotron-Ultra-253B-v1"
+    bound_agent: "axis-agent (:8082)"
+    max_tokens: 2048
+    temperature: 0.2
+    triggers:
+      - "architect"
+      - "audit"
+      - "reason"
+      - "synthesize"
+      - "verify"
+      - "optimize"
+      - "kernel"

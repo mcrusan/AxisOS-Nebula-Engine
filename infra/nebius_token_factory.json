@@ -1,0 +1,43 @@
+{
+  "_meta": {
+    "file": "infra/nebius_token_factory.json",
+    "project": "AxisOS Nebula Engine (Crusan & Co.)",
+    "author": "Marc F. Crusan / Crusan & Co. w/ AGY",
+    "date": "2026-10-20",
+    "description": "Nebius Token Factory & Nebius Serverless Endpoints configuration for NVIDIA Nemotron open-source model tiers.",
+    "changelog": [
+      "2026-10-20 (MFC/AGY): Defined Nebius Token Factory endpoints and NVIDIA Nemotron routing tiers."
+    ]
+  },
+  "provider": "Nebius Token Factory & Nebius AI Cloud",
+  "base_url": "https://api.studio.nebius.com/v1",
+  "serverless_endpoints": {
+    "realtime_inference": "https://serverless.nebius.ai/v1/axisos-nebula-realtime",
+    "async_batch_jobs": "https://serverless.nebius.ai/v1/axisos-nebula-jobs"
+  },
+  "nvidia_open_source_models": {
+    "tier_1_nano": {
+      "model_id": "nvidia/Llama-3_1-Nemotron-Nano-8B-v1",
+      "bound_triad_node": "agent-lite (:8080)",
+      "use_case": "Fast everyday tactical routing, intent classification, and sub-second edge tool selection."
+    },
+    "tier_1_super": {
+      "model_id": "nvidia/Llama-3_3-Nemotron-Super-49B-v1",
+      "bound_triad_node": "zero-comms (:8085)",
+      "use_case": "Balanced high-throughput multi-agent synthesis, telemetry summarization, and code inspection."
+    },
+    "tier_2_ultra": {
+      "model_id": "nvidia/Llama-3_1-Nemotron-Ultra-253B-v1",
+      "bound_triad_node": "axis-agent (:8082)",
+      "use_case": "Deep multi-step architectural reasoning, bare-metal C99 verification, and WORM security audits."
+    }
+  },
+  "sovereign_triad_reflex": {
+    "tier_0_zero_core": {
+      "binary": "/mnt/ramdisk/zero-core (:8081)",
+      "footprint_kb": 49,
+      "latency_us": 112,
+      "architecture": "100% Freestanding C99 (Zero-libc, raw svc #0 / syscall ABI)"
+    }
+  }
+}
