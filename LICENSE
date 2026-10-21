@@ -38,9 +38,11 @@ Engine external integration router, Nebius Token Factory client adapter, and
 test suite source files contained within this repository ("the Software").
 
 No license, right, title, or interest—express or implied—is granted under this
-repository to the underlying AxisOS operating system, the AxisOS Sovereign
-Triad freestanding C99 core engines (including `zero-core`, `agent-lite` /
-`lite`, `axis-agent`, `zero-comms`, `zero-brain`, and `cloud-triad-gateway`),
-the `RAMGAK` DDR4 memory bracket architecture, or any related trademarks,
-trade secrets, or proprietary binaries, all of which remain the exclusive,
+repository to the underlying AxisOS Tiny OS (`axisos-initramfs.img` RAM-boot
+runtime), the freestanding C99 direct kernel syscall stack (`axis-syscalls.c`,
+`axis-loop.c`, `svc #0` / `syscall`), the AxisOS Sovereign Triad core agents
+(including `zero-core`, `agent-lite` / `lite`, `axis-agent`, `zero-comms`,
+`zero-brain`, and `cloud-triad-gateway`), the `RAMGAK` DDR4 memory bracket
+architecture, or any pre-loaded AxisOS hardware images, trademarks, trade
+secrets, or proprietary binaries, all of which remain the exclusive,
 proprietary intellectual property of Crusan & Co. (Marc F. Crusan).
