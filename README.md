@@ -22,10 +22,12 @@ Changelog:
 **Flagship Platform:** AxisOS (`HONEST` • `AUDITABLE` • `OWNED`)  
 **Architect:** Marc F. Crusan (w/ AGY)  
 **Hackathon:** Nebius x NVIDIA Global AI Hackathon  
-**Open Source License:** [MIT License](LICENSE) *(Visible at top of repository)*  
+**Open Source License:** [MIT License](LICENSE) *(Visible at top of repository — covers the Nebula Engine integration router & client adapter in this repo)*  
 **2m15s 1080p Video Walkthrough:** [https://youtu.be/QZUQi-tI8bo](https://youtu.be/QZUQi-tI8bo)  
 **Live Sovereign Triad Cloud Outpost:** [https://axisos-sovereign-triad-4zye7tn3qq-uw.a.run.app](https://axisos-sovereign-triad-4zye7tn3qq-uw.a.run.app)  
 **Live Console HUD:** [https://axisos.pro/console/](https://axisos.pro/console/)  
+
+> **Scope of License & Proprietary Core Exclusion Notice:** The [MIT License](LICENSE) in this repository applies strictly and exclusively to the **AxisOS Nebula Engine** external integration router, Nebius Token Factory client adapter, and verification suite contained within this repository. The underlying **AxisOS** operating system, the **AxisOS Sovereign Triad** freestanding C99 core engines (`zero-core`, `agent-lite` / `lite`, `axis-agent`, `zero-comms`, `zero-brain`, and `cloud-triad-gateway`), and the `RAMGAK` memory bracket architecture are not distributed in this repository and remain the exclusive, proprietary intellectual property of **Crusan & Co.** (Marc F. Crusan). All Rights Reserved.
 
 ---
 
