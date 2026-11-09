@@ -1,16 +1,14 @@
 <!--
 ==============================================================================
-File: README.md
-Project: AxisOS Nebula Engine (Crusan & Co.)
-Author: Marc F. Crusan / Crusan & Co. w/ AGY
-Date: 2026-10-20
-Description: Production README for AxisOS Nebula Engine — Nebius x NVIDIA
-             Global AI Hackathon Submission.
-Changelog:
-  - 2026-10-20 (MFC/AGY): Created complete technical README with MIT license
-    badge, Nebius Token Factory + NVIDIA Nemotron architecture, and setup guide.
+File:        README.md
+Description: Production README for Crusan & Co. AxisOS™ Nebula Engine (Sovereign Multi-Agent Orchestrator w/ Nebius Token Factory & NVIDIA Nemotron).
+Author:      Marc F. Crusan (MFC) / Crusan & Co. w/ PP & AGY (AXEL)
+Date:        2026110901
+Version:     v1.1.0-Silicon
 ==============================================================================
 -->
+<!-- 2026110901 (MFC/PP/AGY) Upgraded to canonical Crusan & Co. 5-Field SOP Header & USPTO SN 99878469 notice. -->
+<!-- 2026102001 (MFC/AGY) Created complete technical README with MIT license badge and IP exclusion notice. -->
 
 # Crusan & Co. — AxisOS Nebula Engine
 ### **Sovereign Multi-Agent Orchestrator Powered by Nebius Token Factory, NVIDIA Nemotron & the Freestanding C99 AxisOS Triad**
@@ -19,7 +17,7 @@ Changelog:
 [![Pillars: HONEST • AUDITABLE • OWNED](https://img.shields.io/badge/AxisOS-HONEST%20%E2%80%A2%20AUDITABLE%20%E2%80%A2%20OWNED-brightgreen.svg)](https://axisos.pro)
 
 **Parent Entity:** Crusan & Co.  
-**Flagship Platform:** AxisOS (`HONEST` • `AUDITABLE` • `OWNED`)  
+**Flagship Platform:** **AxisOS™** (`HONEST` • `AUDITABLE` • `OWNED` — *U.S. Trademark Application Serial No. `99878469`*)  
 **Architect:** Marc F. Crusan (w/ AGY)  
 **Hackathon:** Nebius x NVIDIA Global AI Hackathon  
 **Open Source License:** [MIT License](LICENSE) *(Visible at top of repository — covers the Nebula Engine integration router & client adapter in this repo)*  
