@@ -32,10 +32,10 @@ class NebulaConfig:
     model_ultra: str = os.getenv("NVIDIA_MODEL_ULTRA", "nvidia/Llama-3_1-Nemotron-Ultra-253B-v1")
 
     # AxisOS Sovereign Triad Edge & Cloud Run Outpost
-    zero_core_url: str = os.getenv("AXISOS_ZERO_CORE_URL", "http://192.168.1.34:8081")
-    lite_url: str = os.getenv("AXISOS_LITE_URL", "http://192.168.1.34:8080")
-    axis_agent_url: str = os.getenv("AXISOS_AGENT_URL", "http://192.168.1.34:8082")
-    zero_comms_url: str = os.getenv("AXISOS_COMMS_URL", "http://192.168.1.34:8085")
+    zero_core_url: str = os.getenv("AXISOS_ZERO_CORE_URL", "http://127.0.0.1:8081")
+    lite_url: str = os.getenv("AXISOS_LITE_URL", "http://127.0.0.1:8080")
+    axis_agent_url: str = os.getenv("AXISOS_AGENT_URL", "http://127.0.0.1:8082")
+    zero_comms_url: str = os.getenv("AXISOS_COMMS_URL", "http://127.0.0.1:8085")
     cloud_outpost_url: str = os.getenv(
         "AXISOS_CLOUD_OUTPOST_URL",
         "https://axisos-sovereign-triad-4zye7tn3qq-uw.a.run.app",

@@ -19,7 +19,7 @@ Version:     v1.1.0-Silicon
 **Parent Entity:** Crusan & Co.  
 **Flagship Platform:** **AxisOS™** (`HONEST` • `AUDITABLE` • `OWNED` — *U.S. Trademark Application Serial No. `99878469`*)  
 **Architect:** Marc F. Crusan (w/ AGY)  
-**Hackathon:** Nebius x NVIDIA Global AI Hackathon  
+**Architecture Layer:** Multi-Agent Cloud-to-Edge Orchestration (`Nebius Token Factory` + `NVIDIA Nemotron` + `AxisOS™`)
 **Open Source License:** [MIT License](LICENSE) *(Visible at top of repository — covers the Nebula Engine integration router & client adapter in this repo)*  
 **2m15s 1080p Video Walkthrough:** [https://youtu.be/QZUQi-tI8bo](https://youtu.be/QZUQi-tI8bo)  
 **Live Sovereign Triad Cloud Outpost:** [https://axisos-sovereign-triad-4zye7tn3qq-uw.a.run.app](https://axisos-sovereign-triad-4zye7tn3qq-uw.a.run.app)  
